@@ -1,0 +1,15 @@
+<robot name="sensor_d435" xmlns:xacro="http://ros.org/wiki/xacro">
+
+	<xacro:property name="M_PI" value="3.1415926535897931"/>
+
+	<link name="camera"/>
+	<link name="camera_link"/>
+
+	<joint name="sensor_d435_fix" type="fixed">
+		<origin xyz="0 0 0"
+						rpy="0 ${-M_PI/2.0} ${M_PI/2.0}"/>
+		<parent link="camera"/>
+		<child link="camera_link"/>
+	</joint>
+
+</robot>
