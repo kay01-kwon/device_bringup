@@ -1,7 +1,7 @@
 # device_brigup
 
 
-## Camera launch
+## 1. Camera launch
 
 Before executing vins fusion,
 
@@ -23,7 +23,7 @@ The reason why the generation of joint is performed is to get depth image
 
 in the world frame.
 
-## Pixhawk 6x mini launch
+## 2. Pixhawk 6x mini launch
 
 Firstly, launch the pixhawk 6x mini to get linear acceleration and
 
