@@ -48,3 +48,9 @@ Check if the rate of IMU msg is approximately 200 Hz.
 ```
 rostopic hz /mavros/imu/data_raw
 ```
+
+## 3. Frames (camera)
+
+The frame is constructed like the following:
+
+<img src="d435i_bringup/fig/frames.png"/>
