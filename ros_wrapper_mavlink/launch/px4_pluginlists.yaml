@@ -26,12 +26,12 @@ plugin_blacklist:
 - log_transfer
 - mag_calibration_status
 - manual_control
-- mocap_pose_estimate
+# - mocap_pose_estimate
 - mount_control
 - obstacle_distance
 - optical_flow
 - px4flow
-- rc_io
+# - rc_io
 - safety_area
 - setpoint_accel
 - setpoint_attitude

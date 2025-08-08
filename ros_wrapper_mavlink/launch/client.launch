@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="ros_mavlink" type="ros_mavlink_client" name="ros_mavlink_client_node" output="screen"/>
+		<param name="HIGHRES_IMU_RATE" type="double" value="10000.0"/>
+		<param name="ATTITUDE_QUATERNION_RATE" type="double" value="10000.0"/>
+		<param name="RC_CHANNELS_RATE" type="double" value="10000.0"/>
+</launch>

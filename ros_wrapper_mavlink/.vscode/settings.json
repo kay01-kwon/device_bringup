@@ -1,9 +1,4 @@
 {
-    "files.associations": {
-        "system_error": "cpp",
-        "bitset": "cpp",
-        "ostream": "cpp"
-    },
     "python.autoComplete.extraPaths": [
         "/home/kay/catkin_ws/devel/lib/python3/dist-packages",
         "/opt/ros/noetic/lib/python3/dist-packages",

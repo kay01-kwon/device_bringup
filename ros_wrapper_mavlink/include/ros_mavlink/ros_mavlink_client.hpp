@@ -29,9 +29,13 @@ class RosMavlinkClient
 
     float ATTITUDE_QUATERNION_rate_{5000.0f}; // 5000 micro second interval
 
+    float RC_CHANNELS_rate_{10000.0f};  // 10,000 micro second (10 ms)
+
     float HIGHRES_IMU_msg_id_{105.0f};
 
     float ATTITUDE_QUATERNION_msg_id_{31.0f};
+
+    float RC_CHANNELS_msg_id_{65.0f};
 
     float MAV_CMD_SET_MESSAGE_INTERVAL_{511.0f};
 
