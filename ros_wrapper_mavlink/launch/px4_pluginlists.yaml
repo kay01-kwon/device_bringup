@@ -22,16 +22,16 @@ plugin_blacklist:
 - hil
 - home_position
 - landing_target
-- local_position
+ - local_position
 - log_transfer
 - mag_calibration_status
 - manual_control
-# - mocap_pose_estimate
+- mocap_pose_estimate
 - mount_control
 - obstacle_distance
 - optical_flow
 - px4flow
-# - rc_io
+  #- rc_io
 - safety_area
 - setpoint_accel
 - setpoint_attitude
@@ -39,7 +39,7 @@ plugin_blacklist:
 - setpoint_raw
 - setpoint_velocity
 - nav_controller_output
-- odom
+  #- odom
 - play_tune
 - rallypoint
 - rangefinder
@@ -51,7 +51,7 @@ plugin_blacklist:
 - wheel_odometry
 - wind_estimation
 - waypoint
-- vision_pose_estimate
+  #- vision_pose_estimate
 - vision_speed
 - tunnel
 

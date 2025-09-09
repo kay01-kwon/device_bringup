@@ -22,5 +22,10 @@
 		<!-- load blacklist, config -->
 		<rosparam command="load" file="$(arg pluginlists_yaml)" />
 		<rosparam command="load" file="$(arg config_yaml)" />
+		<remap from="/mavros/vision_pose/pose" to="/mocap/JetsonPlatform/pose"/>
+		
+		<param name="local_position/tf/send" value="true"/>
+		<param name="local_position/tf/frame_id" value="world"/>
+		<param name="local_position/tf/child_frame_id" value="base_link"/>
 	</node>
 </launch>
