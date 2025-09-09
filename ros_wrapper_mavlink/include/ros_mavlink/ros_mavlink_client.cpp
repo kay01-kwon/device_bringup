@@ -58,6 +58,12 @@ void RosMavlinkClient::run()
 
         command_long_service_.call(command_long_srv);
 
+	command_long_srv.request.command = MAV_CMD_SET_MESSAGE_INTERVAL_;
+	command_long_srv.request.param1 = ODOMETRY_IN_msg_id_;
+	command_long_srv.request.param2 = ODOMETRY_IN_rate_;
+
+	command_long_service_.call(command_long_srv);
+
         if(is_set_ATTITUDE_QUATERNION_rate_ && is_set_HIGHRES_IMU_rate_)
         {
             ROS_INFO("Both message intervals set successfully.");
