@@ -43,7 +43,7 @@ class RosMavlinkClient
 
     float RC_CHANNELS_msg_id_{65.0f};
 
-    float Local_Position_Odom_msg_id_{331.0f};
+    float Local_Position_Odom_msg_id_{32.0f};
 
     float MAV_CMD_SET_MESSAGE_INTERVAL_{511.0f};
 
