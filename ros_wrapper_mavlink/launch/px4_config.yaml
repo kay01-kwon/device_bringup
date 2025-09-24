@@ -42,20 +42,20 @@ imu:
 
 
 # odom
-odometry:
-  fcu:
-    odom_parent_id_des: "odom"
-    odom_child_id_des: "base_link"
-    map_id_des: "map"
+#odometry:
+#  fcu:
+#    odom_parent_id_des: "odom"
+#    odom_child_id_des: "base_link"
+#    map_id_des: "map"
 
 
 # Vision pose estimate
-vision_pose:
-  tf:
-    listen: false
-    frame_id: "odom"
-    child_frame_id: "mocap_estimate"
-    rate_limit: 100.0
+#vision_pose:
+#  tf:
+#    listen: false
+#    frame_id: "odom"
+#    child_frame_id: "mocap_estimate"
+#    rate_limit: 100.0
 
 # mocap:
 #  use_tf: false
